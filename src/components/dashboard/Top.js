@@ -18,10 +18,14 @@ function Top() {
             <img src={Twitter} className="social-icon-img" alt="" />
             <img src={Instagram} className="social-icon-img" alt="" />
         </div>
-        <div>
+        <div className="dashboard-top-main-part">
             <p className="main-header-letter" style={{color:"#A4AFB6"}} >Welcome To</p>
-            <img src={ServeX} alt="" />
+            <img src={ServeX} className="servex-img" alt="" />
             <p className="main-description grey-color">Find the widest range of freelancers and professionals for your small and large projects. <span style={{color:"#53FC18"}}>Servex</span> not only hosts individuals but also the collaborating teams of “professionals”</p>
+            <div className="top-search-part">
+                <img src={MinimalisticMagnifer} alt="" />
+                <p>Search My Professional</p>
+            </div>
         </div>
       </div>
     </div>
