@@ -1,0 +1,26 @@
+.top-container{
+    background: url('../../img/dashboard_bg.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  max-width: 100%!important;
+  height: 100vh;
+}
+.top-main-part{
+  display: flex;
+}
+.social-part{
+  background-color: #53FC18;
+  border-radius: 0px 20px 20px 0px;
+  display: grid;
+  /* position: absolute;
+  top: 40%;
+  left: 0; */
+  padding: 10px 10px 20px 10px;
+}
+.social-icon-img{
+  width: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+}
